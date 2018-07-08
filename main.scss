@@ -1,8 +1,11 @@
 $primary-color: white;
 
-body {
-  background-color: #638bff !important;
-}
+//body {
+//  background-image: url("img/bg.svg");
+//  background-position: 100%;
+//  //background-size: Auto 150px;
+//  background-repeat: no-repeat;
+//}
 
 h1 {
   color: $primary-color
@@ -14,6 +17,28 @@ p {
 
 a {
   color: $primary-color;
+}
+
+
+.container--background {
+  background-color: #638bff;
+  width:Auto;
+  height:600px;
+}
+
+.container--wave {
+  background-image: url("img/waves.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container--background-bottom {
+  background-color: #638bff;
+  width:Auto;
+  height:150px;
+  border-bottom-left-radius:70%;
+  border-bottom-right-radius:70%;
 }
 
 .nav-link {
