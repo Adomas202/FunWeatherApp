@@ -1,11 +1,11 @@
-h1 {
-  color: white; }
-
 p {
-  color: white; }
+  color: #ffffff; }
 
 a {
-  color: white; }
+  color: #ffffff; }
+
+div h3 {
+  text-align: left; }
 
 .container--background {
   background-color: #638bff;
@@ -17,6 +17,25 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
+  .container--wave h1 {
+    margin-top: 100px;
+    font-size: 3.5em;
+    color: #ffffff; }
+  .container--wave p {
+    margin-top: 30px;
+    padding-right: 60px; }
+  .container--wave button {
+    margin: 30px 2px;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 4px;
+    color: #ffffff; }
+
+.button--download {
+  background-color: #fb6941; }
+
+.button-features {
+  background-color: #4365c9; }
 
 .container--background-bottom {
   background-color: #638bff;
@@ -24,24 +43,74 @@ a {
   height: 150px;
   border-bottom-left-radius: 70%;
   border-bottom-right-radius: 70%; }
+  .container--background-bottom img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0px; }
 
 .nav-link {
-  color: white;
+  color: #ffffff;
   padding-left: 7em !important; }
 
 .navbar-brand {
-  color: white; }
+  color: #ffffff; }
 
 .row--firstScreen {
   margin: 60px; }
 
-.row--firstScreen-header {
-  margin-top: 100px;
-  font-size: 3.5em;
-  color: white; }
+.container--features {
+  color: #638bff;
+  margin-top: 150px;
+  text-align: center; }
 
-.row--firstScreen-description {
-  margin-top: 30px;
-  padding-right: 30px; }
+.container--features-p {
+  color: darkgrey; }
+
+.row--features {
+  color: black;
+  margin-top: 100px;
+  margin-bottom: 200px; }
+  .row--features p {
+    color: darkgrey;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: left;
+    line-height: 150%;
+    padding: 0px; }
+
+.div--download {
+  background-color: #638bff;
+  color: #ffffff;
+  padding-top: 30px; }
+  .div--download p {
+    margin-top: 50px;
+    margin-right: 40px; }
+  .div--download img {
+    width: 700px;
+    height: auto; }
+
+.col--download-description {
+  margin-top: 50px; }
+
+.footer {
+  padding-top: 100px;
+  background: #353753;
+  padding-bottom: 100px; }
+  .footer p {
+    text-align: right;
+    color: #565b87; }
+  .footer hr {
+    border-color: #565b87;
+    height: 1px; }
+
+.div--footer-row div {
+  margin-right: 50px;
+  color: darkgrey;
+  margin-bottom: 100px; }
+  .div--footer-row div h4 {
+    color: #fc6a42; }
+  .div--footer-row div span {
+    color: #638bff; }
 
 /*# sourceMappingURL=main.css.map */
