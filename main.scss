@@ -1,4 +1,5 @@
 $primary-color: white;
+$background-color: #638bff;
 
 //body {
 //  background-image: url("img/bg.svg");
@@ -6,10 +7,6 @@ $primary-color: white;
 //  //background-size: Auto 150px;
 //  background-repeat: no-repeat;
 //}
-
-h1 {
-  color: $primary-color
-}
 
 p {
   color: $primary-color
@@ -19,9 +16,15 @@ a {
   color: $primary-color;
 }
 
+div {
+  h3 {
+    text-align: left;
+  }
+}
+
 
 .container--background {
-  background-color: #638bff;
+  background-color: $background-color;
   width:Auto;
   height:600px;
 }
@@ -34,7 +37,7 @@ a {
 }
 
 .container--background-bottom {
-  background-color: #638bff;
+  background-color: $background-color;
   width:Auto;
   height:150px;
   border-bottom-left-radius:70%;
@@ -42,12 +45,13 @@ a {
 }
 
 .nav-link {
-  color: white;
+  color: $primary-color;
   padding-left: 7em !important;
 }
 
 .navbar-brand {
-  color: white; }
+  color: $primary-color
+}
 
 .row--firstScreen{
   margin: 60px;
@@ -62,4 +66,41 @@ a {
 .row--firstScreen-description{
   margin-top: 30px;
   padding-right: 30px;
+}
+
+.container--features {
+  color: $background-color;
+  margin-top: 150px;
+  text-align: center;
+}
+
+.container--features-p {
+  color: darkgrey;
+}
+
+.row--features {
+  color: black;
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+.row--features-p {
+  color: darkgrey;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: left;
+  line-height: 150%;
+  padding: 0px;
+}
+
+.div--download {
+  background-color: $background-color;
+  color: $primary-color;
+  padding-top: 100px;
+}
+
+
+
+.footer {
+  margin-top: 400px;
 }

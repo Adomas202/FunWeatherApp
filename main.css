@@ -1,11 +1,11 @@
-h1 {
-  color: white; }
-
 p {
   color: white; }
 
 a {
   color: white; }
+
+div h3 {
+  text-align: left; }
 
 .container--background {
   background-color: #638bff;
@@ -43,5 +43,34 @@ a {
 .row--firstScreen-description {
   margin-top: 30px;
   padding-right: 30px; }
+
+.container--features {
+  color: #638bff;
+  margin-top: 150px;
+  text-align: center; }
+
+.container--features-p {
+  color: darkgrey; }
+
+.row--features {
+  color: black;
+  margin-top: 100px;
+  margin-bottom: 200px; }
+
+.row--features-p {
+  color: darkgrey;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: left;
+  line-height: 150%;
+  padding: 0px; }
+
+.div--download {
+  background-color: #638bff;
+  color: white;
+  padding-top: 100px; }
+
+.footer {
+  margin-top: 400px; }
 
 /*# sourceMappingURL=main.css.map */
