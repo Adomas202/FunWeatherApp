@@ -1,2 +1,2 @@
 # FunWeatherApp
-Plain statis weather app
+Plain static weather app
