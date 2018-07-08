@@ -59,6 +59,12 @@ div {
   height:150px;
   border-bottom-left-radius:70%;
   border-bottom-right-radius:70%;
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0px;
+  }
 }
 
 .nav-link {
