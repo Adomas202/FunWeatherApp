@@ -10,9 +10,8 @@ div h3 {
   text-align: left; }
 
 .container--background {
-  background-color: #638bff;
-  width: Auto;
-  height: 600px; }
+  background-image: url("img/Backgroundspng.png");
+  width: 100%; }
 
 .container--wave {
   background-image: url("img/waves.png");
@@ -125,5 +124,11 @@ div h3 {
     color: #fc6a42; }
   .div--footer-row div span {
     color: #638bff; }
+.div--footer-row a div {
+  padding: 0px;
+  margin-right: 0px;
+  margin-left: 40px; }
+.div--footer-row a .div--footer-facebook {
+  margin-left: 70px; }
 
 /*# sourceMappingURL=main.css.map */
