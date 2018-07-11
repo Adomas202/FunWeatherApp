@@ -59,10 +59,14 @@ div h3 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    bottom: 0px; }
+    bottom: 0px;
+    border-radius: 50%; }
+
+.navbar {
+  padding: 1.5em 1em !important; }
 
 .nav-link {
-  color: #ffffff;
+  color: #e1e1e1;
   padding-right: 7em !important; }
 
 .navbar-nav img {
@@ -70,7 +74,11 @@ div h3 {
 
 .navbar-brand {
   color: #ffffff;
-  margin-right: 7em !important; }
+  margin-right: 7em !important;
+  font-weight: bold; }
+
+.a--home-link {
+  color: #ffffff; }
 
 .container--features {
   color: #638bff;
@@ -78,14 +86,14 @@ div h3 {
   text-align: center; }
 
 .container--features-p {
-  color: darkgrey; }
+  color: #e1e1e1; }
 
 .row--features {
   color: black;
   margin-top: 100px;
   margin-bottom: 200px; }
   .row--features p {
-    color: darkgrey;
+    color: #e1e1e1;
     padding-left: 30px;
     padding-right: 30px;
     text-align: left;
@@ -116,17 +124,20 @@ div h3 {
 .footer {
   padding-top: 100px;
   background: #353753;
-  padding-bottom: 100px; }
+  padding-bottom: 50px; }
   .footer p {
     text-align: right;
     color: #565b87; }
   .footer hr {
     border-color: #565b87;
     height: 1px; }
+  .footer .div--footer-toTop {
+    position: absolute;
+    right: 9em; }
 
 .div--footer-row div {
   margin-right: 50px;
-  color: darkgrey;
+  color: #e1e1e1;
   margin-bottom: 100px; }
   .div--footer-row div h4 {
     color: #fc6a42; }
@@ -138,5 +149,7 @@ div h3 {
   margin-left: 40px; }
 .div--footer-row a .div--footer-facebook {
   margin-left: 70px; }
+.div--footer-row .a--home-link {
+  color: #ffffff; }
 
 /*# sourceMappingURL=main.css.map */
