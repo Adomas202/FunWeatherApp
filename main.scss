@@ -2,15 +2,14 @@ $primary-color: #ffffff;
 $background-color: #638bff;
 $footer-color: #353753;
 $page-bottom-color: #565b87;
+$navigation-color: #e1e1e1;
+$page-font: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 p {
   color: $primary-color;
-  font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: $page-font;
   font-weight: normal;
-}
-
-h1 {
-
+  font-smooth: always;
 }
 
 a {
@@ -20,6 +19,8 @@ a {
 div {
   h3 {
     text-align: left;
+    font-family: $page-font;
+    font-weight: bold;
   }
 }
 
@@ -29,27 +30,30 @@ div {
 }
 
 .container--wave {
-  background-image: url("img/waves.png");
+  background-image: url("img/wavespng.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding-top: 100px;
   h1 {
     margin-top: 100px;
     font-size: 3.5em;
     color: $primary-color;
-    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: $page-font;
     font-weight: normal;
   }
   p {
     margin-top: 30px;
-    padding-right: 60px;
+    padding-right: 140px;
   }
   button {
     margin: 30px 2px;
     border: none;
-    padding: 10px 24px;
+    padding: 10px 30px;
     border-radius: 4px;
     color: $primary-color;
+    font-family: $page-font;
+    font-weight: normal;
   }
   @media (max-width:756px){
     .image--hidden img:first-child{
@@ -65,22 +69,28 @@ div {
   background-color: #4365c9;
 }
 
-.container--background-bottom {
+.container--background-bottom{
   background-color: #5b81ec;
   width:Auto;
   height:150px;
   border-bottom-left-radius:70%;
   border-bottom-right-radius:70%;
+
   img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     bottom: 0px;
+    border-radius: 50%;
   }
 }
 
+.navbar {
+  padding: 1.5em 1em !important;
+}
+
 .nav-link {
-  color: $primary-color;
+  color: $navigation-color;
   padding-right: 7em !important;
 }
 
@@ -93,6 +103,11 @@ div {
 .navbar-brand {
   color: $primary-color;
   margin-right: 7em !important;
+  font-weight: bold;
+}
+
+.a--home-link {
+  color: $primary-color;
 }
 
 .container--features {
@@ -102,7 +117,7 @@ div {
 }
 
 .container--features-p {
-  color: darkgrey;
+  color: $navigation-color;
 }
 
 .row--features {
@@ -110,12 +125,15 @@ div {
   margin-top: 100px;
   margin-bottom: 200px;
   p {
-    color: darkgrey;
+    color: $navigation-color;
     padding-left: 30px;
     padding-right: 30px;
     text-align: left;
     line-height: 150%;
     padding: 0px;
+  }
+  img {
+    margin-top: 10px;
   }
 }
 
@@ -144,12 +162,10 @@ div {
   }
 }
 
-
-
 .footer {
   padding-top: 100px;
   background: $footer-color;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   p {
     text-align: right;
     color: $page-bottom-color;
@@ -158,12 +174,16 @@ div {
     border-color: $page-bottom-color;
     height: 1px;
   }
+  .div--footer-toTop {
+    position: absolute;
+    right: 9em;
+  }
 }
 
 .div--footer-row {
   div {
     margin-right: 50px;
-    color: darkgrey;
+    color: $navigation-color;
     margin-bottom: 100px;
     h4{
       color: #fc6a42;
@@ -181,5 +201,8 @@ div {
     .div--footer-facebook {
       margin-left: 70px;
     }
+  }
+  .a--home-link {
+    color: $primary-color;
   }
 }
