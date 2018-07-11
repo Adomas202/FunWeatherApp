@@ -2,15 +2,13 @@ $primary-color: #ffffff;
 $background-color: #638bff;
 $footer-color: #353753;
 $page-bottom-color: #565b87;
+$page-font: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 p {
   color: $primary-color;
-  font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: $page-font;
   font-weight: normal;
-}
-
-h1 {
-
+  font-smooth: always;
 }
 
 a {
@@ -20,6 +18,8 @@ a {
 div {
   h3 {
     text-align: left;
+    font-family: $page-font;
+    font-weight: bold;
   }
 }
 
@@ -29,27 +29,30 @@ div {
 }
 
 .container--wave {
-  background-image: url("img/waves.png");
+  background-image: url("img/wavespng.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding-top: 100px;
   h1 {
     margin-top: 100px;
     font-size: 3.5em;
     color: $primary-color;
-    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: $page-font;
     font-weight: normal;
   }
   p {
     margin-top: 30px;
-    padding-right: 60px;
+    padding-right: 140px;
   }
   button {
     margin: 30px 2px;
     border: none;
-    padding: 10px 24px;
+    padding: 10px 30px;
     border-radius: 4px;
     color: $primary-color;
+    font-family: $page-font;
+    font-weight: normal;
   }
   @media (max-width:756px){
     .image--hidden img:first-child{
@@ -117,6 +120,9 @@ div {
     line-height: 150%;
     padding: 0px;
   }
+  img {
+    margin-top: 10px;
+  }
 }
 
 .div--download {
@@ -157,6 +163,10 @@ div {
   hr {
     border-color: $page-bottom-color;
     height: 1px;
+  }
+  img {
+    //position: fixed;
+
   }
 }
 
